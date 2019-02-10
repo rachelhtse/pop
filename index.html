@@ -24,13 +24,14 @@
     
    <!-- Font Awesome Icons (Free) 1/17/19 -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="shortcut icon" type="image/png" href="img/rt_favicon.png"/>
+
   </head>
 
   <body id="page-top">
 
-<!------------------
-Navigation 
------------------->
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -72,23 +73,19 @@ Navigation
       </div>
     </header>
 
-<!------------------ 
-About Section 
------------------->
+    <!-- About Section -->
     <section id="about" class="about-section text-center">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto mb-4">
-            <h2 class="text-white mb-4 custom-text">About Me</h2>
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-white custom-text">About Me</h2>
             <p class="text-white-50">Hi there! I'm Rachel Tse and, at the heart of it, I'm a passionate designer striving to make a difference in the world. I'm currently studying at UT Dallas, but also looking at user experience design and web development opportunities.</p>
           </div>
         </div>
       </div>
     </section>
     
-<!------------------
-Resume Section
------------------->
+    <!--Resume Section-->
     <section>
       <div class="container resume-section">
         <div class="row">
@@ -96,6 +93,11 @@ Resume Section
             <h2 class="marg-h2">Experience</h2>
           </div>
           <div class="col-sm-4 resume-text">
+            <h4 class="">M.S., Marketing</h4>
+             <h5 class="">University of Texas at Dallas</h5>
+             <p class="resume-date" style="padding-top: 0;"> Jan 2018 to May 2020</p>
+             <p class="resume-date mb-4" style="padding-top: 0;">Fast Track</p>
+
              <h4 class="">B.S., Marketing</h4>
              <h5 class="">University of Texas at Dallas</h5>
              <p class="resume-date mb-4"> Aug 2016 to May 2020</p>
@@ -103,14 +105,16 @@ Resume Section
              <h4 class="">B.A., Arts Technology</h4>
              <h5 class="">University of Texas at Dallas</h5>
              <p class="resume-date"> Aug 2016 to May 2020</p>
+
            </div>
           <div class="col-sm-4 resume-text">
              <h4 class="">Web Development Intern</h4>
              <h5 class="">Visual App</h5>
-             <p class="resume-date"> Since Jan 2019</p>
+             <p class="resume-date">Jan 2019 to Present</p>
              <ul>
-              <li>Just started this position!</li>
-              <li>I'm still going through some training, but essentially, I help build out pages and format web content for clients.</li>
+              <li>Just started this position.</li>
+                <li>Using WordPress, HTML and CSS to create webpages and blog posts for clientwork</li>
+              <li>Learning about servers and getting comfortable with redirects, FTP and cPanel</li>
              </ul>
            </div>
           <div class="col-sm-4 resume-text">
@@ -138,10 +142,10 @@ Resume Section
       <!-- Progress Bar for Skills https://getbootstrap.com/docs/4.2/components/progress/ -->
              <h4>Organizations</h4>
             <ul>
-              <li>Comet Marketing, Photography Director <br/><i class="resume-date">since Dec 2018</i></li>
+              <li>Comet Marketing, Photography Director <br/><i class="resume-date">Dec 2018 to Present</i></li>
 
-              <li>Professional Program in Marketing <br/><i class="resume-date">since Nov 2018</i></li>
-              <li>Undergraduate Dean's Council <br/><i class="resume-date">since Dec 2017</i></li>
+              <li>Professional Program in Marketing <br/><i class="resume-date">Nov 2018 to Present</i></li>
+              <li>Undergraduate Dean's Council <br/><i class="resume-date">Dec 2017 to Present</i></li>
               <li>The User Experience Club, Adobe Liaison <br/><i class="resume-date">Sep 2017 to May 2018</i></li>
             </ul>
           </div>
@@ -156,9 +160,7 @@ Resume Section
       </div>
     </section>
 
-<!------------------
-Projects Section 
------------------->
+    <!-- Projects Section -->
     <section id="projects" class="projects-section bg-light">
       <div class="container">
         
@@ -170,7 +172,26 @@ Projects Section
             </div>
         </div>
 
-        <!-- Project One Row -->
+
+        <!-- Project Ome Row -->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/hip-hop-cover.png" alt="">
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">How Hip-Hop Rose to Be the Most Popular Genre in America</h4>
+                  <p class="mb-4 text-white-50">I had an opportunity to research and write on any music and technology topic. I decided to do a deep dive on the most popular genre, hip-hop, in the U.S. based on research from leading psychologists and industry experts.</p>
+                  <a href= "img/hip-hop-music-paper.pdf" target="_blank" class="btn btn-primary">Research paper</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Two Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
             <img class="img-fluid" src="img/hallyu-project.png" alt="">
@@ -188,7 +209,7 @@ Projects Section
           </div>
         </div>
 
-        <!-- Project Two Row -->
+        <!-- Project Three Row -->
         <div class="row justify-content-center no-gutters">
           <div class="col-lg-6">
             <img class="img-fluid" src="img/proj-2-img.png" alt="">
@@ -206,12 +227,12 @@ Projects Section
           </div>
         </div>
 
+        
+
       </div>
     </section>
 
-<!------------------
-Contact Section
------------------->
+    <!-- Contact Section-->
     <section id="contact" class="contact-section bg-black">
       <div class="container">
 
@@ -272,9 +293,7 @@ onsubmit="submitted=true;">-->
       </div>
     </section>
 
-<!------------------
-Footer 
------------------->
+    <!-- Footer -->
     <footer class="bg-black small text-center text-white-50">
       <div class="container">
         Copyright &copy; Rachel Tse 2019
@@ -294,7 +313,6 @@ Footer
       $('#myModal').on('shown.bs.modal', function () {
       $('#myInput').trigger('focus')
     })
-
     </script>
 
   </body>
