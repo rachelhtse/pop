@@ -26,6 +26,21 @@
   padding: .9rem 0;
 }
 
+#mainNav .navbar-brand{
+    background-image: url('img/rt-logo-white.png');
+    background-size: 100% 100%;
+    width: 30px;
+    height: 30px;
+}
+#mainNav.navbar-shrink .navbar-brand{
+    background-image: url('img/rt-logo.png');
+}
+#mainNav.navbar-shrink{
+    -webkit-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.4);
+}
+
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(white, 80%);
   outline: none;
